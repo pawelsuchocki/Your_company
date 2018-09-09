@@ -1,0 +1,405 @@
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "open sans"; }
+
+header {
+  background-color: #313234;
+  height: 50px;
+  width: 100%; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.nav__ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right; }
+
+.row:before, .row:after {
+  content: "";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.nav__link {
+  line-height: 50px;
+  padding: 0 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block; }
+
+.nav__link:hover {
+  color: #06BEE4; }
+
+.nav__li {
+  display: inline-block; }
+
+.nav__img {
+  padding: 10px 0; }
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  background-image: url(https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.slogan {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  float: right;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 150px;
+  padding: 2px 250px 2px 25px;
+  line-height: 25px;
+  width: 100%; }
+
+.light {
+  font-weight: 100; }
+
+.animation__div {
+  text-align: center; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 5px; }
+
+.animation i {
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #313234;
+  padding: 15px;
+  border-radius: 10px; }
+
+.animation {
+  margin: 50px auto; }
+
+.animation__div {
+  cursor: pointer; }
+
+.animation__paragraph {
+  color: #8C8C8C;
+  text-align: center; }
+
+.reshearch {
+  color: #313234;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.animation__div:hover .reshearch {
+  color: #06BEE4; }
+
+.animation__div:hover i {
+  background-color: #06BEE4; }
+
+.featuredworks {
+  text-align: center;
+  text-transform: uppercase;
+  color: #313234;
+  font-weight: 900;
+  margin-top: 70px;
+  font-size: 30px; }
+
+.picture {
+  height: 180px;
+  padding: 0;
+  position: relative; }
+
+.object-fit_cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 180px;
+  width: 100%;
+  cursor: pointer; }
+
+.layer {
+  display: none; }
+
+.fa-sm {
+  background-color: #FEFEF0;
+  border-radius: 5px;
+  padding: 5px; }
+
+.picture:hover .layer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
+
+.staff__circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-image: url(https://images.unsplash.com/photo-1518592736484-8ba84b34187b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49811901b9b765d894eabae6c23ece6c&auto=format&fit=crop&w=627&q=80);
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer; }
+
+.staff__member {
+  display: none;
+  font-size: 20px; }
+
+.staff__circle:hover .staff__member {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  border-radius: 200px; }
+
+.staff__name {
+  font-size: 20px;
+  text-align: center;
+  color: #313234;
+  font-weight: bold; }
+
+.staff {
+  margin: 100px auto; }
+
+.awesometitle {
+  height: 360px;
+  width: 100%;
+  margin: 0 auto; }
+
+.awesometitle__pic {
+  overflow: hidden;
+  padding: 0;
+  height: 360px; }
+
+.awesometitle__pic img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 360px; }
+
+.awesometitle__title {
+  margin: 70px 0 0 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 30px; }
+
+.awesometitle__content {
+  background-color: #313234;
+  height: 360px; }
+
+.awesometitle__paragraph1 {
+  color: #ffffff;
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  max-width: 350px; }
+
+.awesometitle__paragraph2 {
+  color: #ffffff;
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+  max-width: 200px; }
+
+.numbers__paragraph1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px auto 0 auto;
+  color: #313234; }
+
+.numbers__paragraph2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #06BEE4; }
+
+.footer__info {
+  width: 25%; }
+
+.footer__info2 {
+  width: 75%; }
+
+.footer {
+  color: #ffffff;
+  background-color: #313234; }
+
+.footer__info2 p {
+  margin: 0; }
+
+.footer__info p {
+  margin: 0; }
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 25px; }
+
+.footer__media {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #06BEE4;
+  padding: 8px;
+  margin: 5px; }
+
+.copyrights {
+  color: #ffffff;
+  text-align: center;
+  background-color: #000;
+  margin: 0 auto;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px; }
+
+@media (max-width: 767px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33333%; }
+  .col-s-2 {
+    width: 16.66667%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33333%; }
+  .col-s-5 {
+    width: 41.66667%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33333%; }
+  .col-s-8 {
+    width: 66.66667%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33333%; }
+  .col-s-11 {
+    width: 91.66667%; }
+  .col-s-12 {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  /* For desktop: */
+  .col-m-1 {
+    width: 8.33333%; }
+  .col-m-2 {
+    width: 16.66667%; }
+  .col-m-3 {
+    width: 25%; }
+  .col-m-4 {
+    width: 33.33333%; }
+  .col-m-5 {
+    width: 41.66667%; }
+  .col-m-6 {
+    width: 50%; }
+  .col-m-7 {
+    width: 58.33333%; }
+  .col-m-8 {
+    width: 66.66667%; }
+  .col-m-9 {
+    width: 75%; }
+  .col-m-10 {
+    width: 83.33333%; }
+  .col-m-11 {
+    width: 91.66667%; }
+  .col-m-12 {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  .nav__li {
+    font-size: 15px;
+    padding: 0;
+    margin: -20px 0;
+    display: block;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+  .nav__ul {
+    float: none; }
+  .slogan {
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    margin-top: 200px; }
+  .animation__div {
+    float: none; }
+  .animation__paragraph {
+    padding: 0 20px; }
+  .staff {
+    margin: 10px auto; }
+  .awesometitle__pic {
+    margin-top: 10vh; }
+  .awesometitle__paragraph1, .awesometitle__paragraph2 {
+    float: none;
+    width: 80%; }
+  .awesometitle__content {
+    height: auto; }
+  .staff {
+    transform: scale(0.5);
+    height: 35vh; }
+  .staff__name {
+    font-size: 28px; }
+  .numbers__paragraph1 {
+    margin: 0; }
+  .numbers__div {
+    padding: 20px; }
+  .footer__div {
+    padding: 0 20px; }
+  .picture {
+    margin: 5px auto; } }
